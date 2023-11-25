@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oefening</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- JavaScript: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- eigen geschreven css voor jouw html-bestand -->
+
+<link href="/Code/navbarpadding.css" rel="navbar"
+
+</head>
+
+
+
+<body>
+
+  
+    <navbar>
+    
+        <div id="nav">
+            <nav class="navbar navbar-expand-lg navbar-warning bg-warning  " >
+              <div class="container-fluid cont"  bis_skin_checked="1">
+                <a class="navbar-brand" href="#">
+                  <img src="/pictures and text/foto's/Borussia_Dortmund_logo.svg.png" width="35" height="35" class="d-inline-block align-top" alt="BVB" loading="lazy" style="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" bis_skin_checked="1">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Code/Klassement.html">Klassement</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Info
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#"> Geschiedenis</a></li>
+                        <li><hr class="dropdown-divider bg-warning"></li>
+                        <li><a class="dropdown-item" href="#"> (ex)-Belgische spelers</a></li>
+                        <li><hr class="dropdown-divider bg-warning"></li>
+                        <li><a class="dropdown-item " href="#">Stadium</a></li>
+                        <li><hr class="dropdown-divider bg-warning"></li>
+                        <li><a class="dropdown-item " href="#">Fans</a></li>
+                        <li><hr class="dropdown-divider bg-warning "></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+    
+          
+    </navbar>
+
+    
+    <main class="col-12">
+    <section id="accordion " class="row">
+        <div class="m-5 ">
+          <div class="">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h4 class="accordion-header text-center fs-1 " id="headingOne">
+                  <button data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne  ">
+                    Borussia Dortmund
+                  </button>
+                </h4>
+              
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                  <div class="accordion-body ">
+                    <p class="fs-6 text-center"> Welcome to the electrifying world of Borussia Dortmund! As one of Germany's most iconic football clubs, Borussia Dortmund has captured the hearts and imaginations of fans around the globe.<br> Founded in 1909, this storied club has a rich history, a passionate fan base, and a commitment to excellence that transcends borders.
+
+            Borussia Dortmund, affectionately known as BVB or simply Dortmund, has a reputation for its distinctive style of play, characterized by its attacking prowess, quick-paced football, and the famous "Yellow Wall" – the awe-inspiring Südtribüne, where over 25,000 supporters create an unmatched atmosphere. With a home at the Signal Iduna Park, one of Europe's largest and most vibrant stadiums, every matchday is an experience like no other.
+            
+            Throughout its history, Borussia Dortmund has achieved remarkable success both domestically and internationally, with numerous Bundesliga titles, DFB-Pokal victories, and memorable runs in European competitions. The club has nurtured and showcased world-class talents, and its commitment to nurturing young players is a testament to its dedication to the beautiful game.
+            
+            This webpage is your gateway to the world of Borussia Dortmund, where you'll find the latest news, in-depth analyses, player profiles, and much more. Whether you're a die-hard fan or just curious to learn more about this iconic club, we invite you to dive into the passion, history, and excitement that defines Borussia Dortmund. Join us as we celebrate the yellow and black, and experience the thrill of football in its purest form!
+            </p>        
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            </main>
+            </main>
+        
+            <div class="container">
+                <div class="row">
+        <article class="col-12 col-sm-6 col-md-4  text-center ">
+            <a href="/Code/Klassement.html">
+          <h2 class="text-uppercase fs-10 fw-bolder pt-3 text-black text-center " >  Klassement</h2>
+            <figure>
+              <img src="/pictures and text/foto's/bundesliga-logo.jpg" class=" rounded-5 img-fluid "  alt="Bundesliga logo"
+                title="Bundesliga-logo">
+            </figure>
+          </a>
+          </a>
+        </article>
+        <article class="col-12 col-sm6 col-md-4 text-black text-center">
+          <h2 class="text-uppercase fs-10 fw-bolder pt-3">Stadium</h2>
+          <a href="#" rel="noopener">
+            <img src="/pictures and text/foto's/Signal_iduna_park_stadium_dortmund_6.jpg" width="370" class=" rounded-5" alt="Bundesliga logo"
+            title="Signal Iduna">
+             
+            </figure>
+          </a>
+        </article>
+        <article class="col-12 col-sm6 col-md-4  text-center">
+          <h2 class="text-uppercase fs-10 fw-bolder pt-3 text-black text-center">Geschiedenis</h2>
+           <a href="" rel="noopener">
+            <figure><img src="/pictures and text/foto's/csm_17224-166747554_e3fe49df8f.jpg" width="370" height="" class=" rounded-5 align-items-sm-center" alt="foto van Starbucks koffiebonen"
+                title="Tophies">
+              
+            </figure>
+          </a>
+        </article>
+        <article class="col-12 col-sm6 col-md-4  text-center ">
+          <h2 class="text-uppercase fs-2 fw-bolder pt-3 text-black text-center">(Ex)-Belgen BVB </h2>
+          <a href="#" rel="noopener">
+            <figure><img src="/pictures and text/foto's/EN_BVBBelgians_HD.webp"  class=" rounded-5 img-fluid text-center" alt="ex belgen"
+                title="bvb belgen">
+            </figure>
+          </a>
+        </article>
+        <article class="col-12 col-sm6 col-md-4 ">
+          <h2 class="text-uppercase fs-2 fw-bolder pt-3 text-black text-center">Fans</h2>
+          <a href="#" rel="noopener">
+            <figure><img src="/pictures and text/foto's/31737370-bvb-fans-2BX1hEGz0vea.jpg"  class=" rounded-5 img-fluid" alt="BVB Belgen"
+                title="BVB Belgen">
+              
+            </figure>
+          </a>
+        </article>
+        <article class="col-12 col-sm6 col-md-4 ">
+          <h2 class="text-uppercase fs-2 fw-bolder pt-3 text-center text-black">Contact</h2>
+          <a href="#" rel="noopener">
+            <figure><img src="/pictures and text/foto's/contact-us-buttons-clipart-design-illustration-free-png.webp" height=" 100" width="400" class="img-fluid rounded-pill" alt="foto van koffiemolen 3"
+                title="">
+            </figure>
+          </a>
+        </article>
+      </main>
+      
+    
+<footer>
+  <hr>
+  <div class="row"></div>
+  <div class="text-center">
+    
+    <ul class="list-inline socials">
+      <li class="list-inline-item ">
+        <a href="https://www.youtube.com" target="_blank">
+          <i class="bi bi-youtube text-warning fs-3"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="bi bi-instagram fs-3 text-black"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com" target="_blank">
+          <i class="bi bi-facebook fs-3 text-warning"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://twitter.com/" target="_blank">
+          <i class="bi bi-twitter fs-3 text-black "></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</footer>
+
+    
+</body>
+
